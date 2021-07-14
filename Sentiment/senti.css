@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right , rgb(40, 13, 214) , midnightblue);
+    padding: 0px !important;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+}
+.navbar-brand{
+    color: #fff !important;
+    
+}
+.fa-bars{
+    color: #fff;
+    font-size: 60px !important;
+}
+#banner{
+    background-image: url(image.jpg);
+    background-size: cover;
+    padding-top: 8%;
+    width: 100%;
+    
+}
+#banner{
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.promo-title{
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.promo-title2{
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+    
+}
+.promo-title3{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-weight: 200;
+    
+}
+.promo-title4{
+    font-size: 20px;
+    border-radius: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-weight: 100;
+    
+}
+.text-banner{
+    font-size: 40px;
+    width: 100%;
+    color: black;
+}
+#items{
+    padding: 40px 0;
+}
+.item-img{
+    width: 180px;
+    margin-top: 20px;
+}
+
+.item-name{
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 2%;
+}
+.pngimage{
+    width: 100px;
+}
+#contact_section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #112d42;
+}
+#contact_section ::before{
+    content : '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: #03a9f4;
+}
+#contact_section .container{
+    position: relative;
+    min-width: 1100px;
+    min-height: 550px;
+    display: flex;
+    z-index: 1000;
+}
+#contact_section .container .contactinfo{
+    position: absolute;
+    top: 40px;
+    width: 350px;
+    height: calc(100%-80px);
+    background: #0f3959;
+    z-index: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 20px 20px rgba(0, 0 ,0 ,0.2);
+}
+#contact_section .container .contactinfo h2{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+}
+#contact_section .container .contactinfo .info{
+
+position: relative;
+margin: 20px 0;
+}
